@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - Bullet
+  - Wall
+  - LevelManager
+  - GameManager
+  - InGameUI
+  - PanelUI
+  - lm
+  - EnemyBullet
+  - pauseSounds
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player
+  - Obstacle
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Floor
+    uniqueID: 1921010671
+    locked: 0
+  - name: Enemy
+    uniqueID: 85887825
+    locked: 0
+  - name: Item
+    uniqueID: 1335902929
+    locked: 0
+  - name: Wall
+    uniqueID: 3580684067
+    locked: 0
+  - name: Player
+    uniqueID: 1754227421
+    locked: 0

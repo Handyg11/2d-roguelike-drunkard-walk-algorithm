@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4155181516897808644
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4155181516897808640}
+  - component: {fileID: 4155181516897808641}
+  - component: {fileID: 4155181518504002865}
+  - component: {fileID: 4155181516897808642}
+  - component: {fileID: 4155181516897808643}
+  m_Layer: 0
+  m_Name: Level Generator
+  m_TagString: LevelManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4155181516897808640
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4155181516897808644}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4155181516897808641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4155181516897808644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c855039bce4b4648b44de0688902385, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4155181518504002865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4155181516897808644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ef78327438a1654d8338bb314a603d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wallObj: {fileID: 4875281784835565478, guid: 072889eb03cf26b49a3db6290dbd7cdd, type: 3}
+  wallObj2: {fileID: 0}
+  wallObj3: {fileID: 0}
+  floorObj: {fileID: 1106959677734953315, guid: c2fcb645a415bfe4e91e0bf333f85b24,
+    type: 3}
+  floorObj2: {fileID: 6420393173750934503, guid: 2161c7257a6816a4aa9cd74e72e5c8bd,
+    type: 3}
+  floorObj3: {fileID: 2463797825825811552, guid: 1d35bf37d7f36354c9420986e41d4ed8,
+    type: 3}
+  enemyObj: {fileID: 2639711069372060033, guid: 7aebf5b6f3ed7464cb48dfb7ca77f4e8,
+    type: 3}
+  enemy2Obj: {fileID: 2639711069372060033, guid: 6bfde5c78d4c93d42907c5b72214a572,
+    type: 3}
+  enemy3Obj: {fileID: 2639711069372060033, guid: 007e48f32ebd96b4a8ee6a4a62aebaf2,
+    type: 3}
+  ammoObj: {fileID: 2947206177222548967, guid: 002d2976e46d8674ca23308f15712f00, type: 3}
+  healthKitObj: {fileID: 3388186621249922192, guid: ef6a6ea464cef5749aeb5f8625a76f84,
+    type: 3}
+  foodObj: {fileID: 5944034777986101347, guid: 16aa85c295e59fb4fb597bc88a75bd64, type: 3}
+  playerObj: {fileID: 7264065157567918806, guid: bc42ba0534c49314a803fdd2e4037617,
+    type: 3}
+  initialPlayerSpawn: {x: 0, y: 0, z: 0}
+  cameraFollow: {fileID: 0}
+  playerCamPosContainer: {x: 0, y: 0, z: 0}
+  enemyCount: 0
+  enemyDecrease: 1
+--- !u!50 &4155181516897808642
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4155181516897808644}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!66 &4155181516897808643
+CompositeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4155181516897808644}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_GeometryType: 0
+  m_GenerationType: 0
+  m_EdgeRadius: 0
+  m_ColliderPaths: []
+  m_CompositePaths:
+    m_Paths: []
+  m_VertexDistance: 0.0005
